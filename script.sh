@@ -2,6 +2,7 @@
 VENV="venv"
 virtualenv $VENV
 source $VENV/bin/activate
+pip install requirements.txt
 pip install flake8
 pip install flake8-junit-report
 pip install pytest
