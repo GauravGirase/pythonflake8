@@ -1,5 +1,5 @@
 #!/bin/sh
-VENV = 'venv'
+VENV="venv"
 virtualenv $VENV
 source $VENV/bin/activate
 pip install flake8
